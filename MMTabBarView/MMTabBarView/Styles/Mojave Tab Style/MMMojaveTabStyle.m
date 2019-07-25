@@ -280,7 +280,8 @@ NS_ASSUME_NONNULL_BEGIN
     }
 
     // Accommodate border
-    aRect.origin.y += 1;
+//    aRect.origin.y += 1;
+    aRect.size.height += 1;
     aRect.size.height -= 2;
 
     [self _drawCardBezelInRect:aRect withCapMask:MMBezierShapeFlippedVertically usingStatesOfAttachedButton:button ofTabBarView:tabBarView];

@@ -57,7 +57,7 @@
 	[toolbar setDelegate:self];
 	[toolbar setAllowsUserCustomization:YES];
 	[toolbar setAutosavesConfiguration:YES];
-    [toolbar setShowsBaselineSeparator:NO];
+//    [toolbar setShowsBaselineSeparator:NO];
     
 	[self.window setToolbar:toolbar];
 

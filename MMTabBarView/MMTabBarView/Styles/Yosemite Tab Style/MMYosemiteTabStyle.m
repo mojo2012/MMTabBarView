@@ -200,7 +200,8 @@ StaticImage(YosemiteTabNewPressed)
     }
     
     if (self.hasBaseline) {
-        aRect.origin.y += 1;
+//        aRect.origin.y += 1;
+        aRect.size.height += 1;
         aRect.size.height -= 2;
     }
         
